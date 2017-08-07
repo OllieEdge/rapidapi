@@ -1,6 +1,6 @@
 {
-  "name": "rapidapi",
-  "version": "2.0.3",
+  "name": "rapidapi-ollie",
+  "version": "1.0.1",
   "description": "A docroot-like API, which lets storing & retrieving your stuff get out of your way",
   "main": "rapidapi.js",
   "dependencies": {
@@ -18,15 +18,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/adriaan-pelzer/rapidapi"
+    "url": "https://github.com/ollieedge/rapidapi"
   },
   "keywords": [
     "REST",
     "API"
   ],
-  "author": "Adriaan Pelzer <adriaan.pelzer@gmail.com>",
+  "author": "Oliver Edgington <oliver@edgington.com>",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/adriaan-pelzer/rapidapi/issues"
+    "url": "https://github.com/ollieedge/rapidapi/issues"
   }
 }
