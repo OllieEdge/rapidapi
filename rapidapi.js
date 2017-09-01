@@ -85,7 +85,7 @@ module.exports = ( config, callBack ) => {
         .errors ( R.unary ( callBack ) )
         .each ( pathAttributes => {
             if ( pathAttributes === 'OK' ) {
-                return S.listen ( process.env.PORT || 5000, () => {
+                return S.listen ( process.env.PORT || config.port || 5000, () => {
                     console.log ( '%s listening at %s', S.name, S.url );
                     callBack ( null, S );
                 } );
